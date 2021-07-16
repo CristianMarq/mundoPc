@@ -2,3 +2,14 @@ html body {
   margin: 0;
   background-color: gainsboro;
 }
+
+#form-dispositivo input {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+}
+
+#form-dispositivo button {
+  display: block;
+  margin-bottom: 10px;
+}
