@@ -1,4 +1,4 @@
-class DispositivosDeEntrada {
+export class DispositivosDeEntrada {
   _tipoEntrada;
   _marca;
 
