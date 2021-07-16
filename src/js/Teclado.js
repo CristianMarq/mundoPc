@@ -4,8 +4,8 @@ export class Teclado extends DispositivosDeEntrada {
   _idTeclado;
   static contadorTeclados = 0;
 
-  constructor(entrada, marca) {
-    super(entrada, marca);
+  constructor(tipoEntrada, marca) {
+    super(tipoEntrada, marca);
     this._idTeclado = ++Teclado.contadorTeclados;
   }
 
@@ -17,5 +17,3 @@ export class Teclado extends DispositivosDeEntrada {
     return `Id: ${this._idTeclado}, Tipo de entrada: ${this._tipoEntrada}, Marca: ${this._marca}`;
   }
 }
-
-
