@@ -3,13 +3,72 @@ html body {
   background-color: gainsboro;
 }
 
+#form-dispositivo {
+  position: relative;
+  top: 30px;
+}
+
+#form-dispositivo label {
+  font-family: "Roboto";
+}
+
 #form-dispositivo input {
   display: block;
   margin-bottom: 10px;
   font-family: "Roboto";
+  width: 200px;
+  height: 25;
+  border: 1px solid;
+  border-radius: 15px;
 }
 
 #form-dispositivo button {
   display: block;
   margin-bottom: 10px;
+  font-family: "Roboto";
+  color: white;
+  width: 208px;
+  height: 25px;
+  border: 1px hidden;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#teclados {
+  background-color: aqua;
+  position: relative;
+  top: 60px;
+  width: 208px;
+  font-family: "Roboto";
+}
+
+#ratones {
+  background-color: aqua;
+  position: relative;
+  top: 120px;
+  width: 208px;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#teclado {
+  background-color: rgb(64, 64, 248);
+}
+
+#raton {
+  background-color: rgb(55, 238, 55);
+}
+
+#teclado:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+#raton:hover {
+  background-color: rgb(7, 228, 7);
+  cursor: pointer;
 }
