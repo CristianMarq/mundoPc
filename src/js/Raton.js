@@ -1,19 +1,18 @@
 import { DispositivosDeEntrada } from "./DispositivoDeEntrada";
 
 export class Raton extends DispositivosDeEntrada {
-  _idRaton;
+  _id;
   static contadorRatones = 0;
   constructor(tipoEntrada, marca) {
     super(tipoEntrada, marca);
-    this._idRaton = ++Raton.contadorRatones;
+    this._id = ++Raton.contadorRatones;
   }
 
   get getIdRaton() {
-    return this._idRaton;
+    return this._id;
   }
 
   toString() {
-    return `Id raton: ${this._idRaton}, Tipo de entrada: ${this._tipoEntrada}, Marca: ${this._marca}`;
+    return `Id raton: ${this._id}, Tipo de entrada: ${this._tipoEntrada}, Marca: ${this._marca}`;
   }
 }
-

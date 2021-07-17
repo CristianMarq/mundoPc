@@ -1,12 +1,12 @@
 import { DispositivosDeEntrada } from "./DispositivoDeEntrada";
 
 export class Teclado extends DispositivosDeEntrada {
-  _idTeclado;
+  _id;
   static contadorTeclados = 0;
 
   constructor(tipoEntrada, marca) {
     super(tipoEntrada, marca);
-    this._idTeclado = ++Teclado.contadorTeclados;
+    this._id = ++Teclado.contadorTeclados;
   }
 
   get getIdTeclado() {
@@ -14,6 +14,6 @@ export class Teclado extends DispositivosDeEntrada {
   }
 
   toString() {
-    return `Id: ${this._idTeclado}, Tipo de entrada: ${this._tipoEntrada}, Marca: ${this._marca}`;
+    return `Id: ${this._id}, Tipo de entrada: ${this._tipoEntrada}, Marca: ${this._marca}`;
   }
 }
