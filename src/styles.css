@@ -1,6 +1,6 @@
 html body {
   margin: 0;
-  background-color: gainsboro;
+  background-color: white;
 }
 
 #form-dispositivo {
@@ -35,7 +35,7 @@ html body {
 }
 
 #teclados {
-  background-color: aqua;
+  color: rgb(134, 134, 134);
   position: relative;
   top: 60px;
   width: 208px;
@@ -43,7 +43,7 @@ html body {
 }
 
 #ratones {
-  background-color: aqua;
+  color: rgb(134, 134, 134);
   position: relative;
   top: 120px;
   width: 208px;

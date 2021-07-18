@@ -16,7 +16,7 @@ const stringToHtml = (string) => {
 
 const creaElemento = (objeto) => {
   const element = stringToHtml(
-    `<li>Id: ${objeto._id}, Tipo de entrada: ${objeto._tipoEntrada}, Marca: ${objeto._marca}`
+    `<li data-id="${objeto._id}">Tipo de entrada: ${objeto._tipoEntrada}, Marca: ${objeto._marca}`
   );
   return element;
 };
